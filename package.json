@@ -1,12 +1,15 @@
 {
   "name": "fem-results-summary-component-main",
+  "homepage": "https://piojosistematico.github.io/fem-results-summary-component-main/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
